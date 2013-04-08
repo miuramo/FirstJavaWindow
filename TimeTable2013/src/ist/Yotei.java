@@ -9,12 +9,14 @@ public class Yotei {
 	String name;
 	String place;
 	
+	//こっちのコンストラクタはつかっていない
 	public Yotei(int y, int j, String lec, String n){
 		youbi = y;
 		jigen = j;
 		lecture = lec;
 		name = n;
 	}
+	//こっちをつかっている
 	public Yotei(String[] ary){
 		lecture = ary[3];
 		name = ary[2];
